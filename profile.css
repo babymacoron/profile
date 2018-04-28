@@ -1,0 +1,145 @@
+body {
+  font-family: "Yu Gothic UI Bold","Yu Gothic UI";
+}
+
+header{
+  background:linear-gradient(to bottom,#FFD5EC,white);
+  height: 80px;
+  width: 100%;
+}
+
+footer{
+  background:linear-gradient(to top,#FFD5EC,white);
+  height: 80px;
+  width: 100%;
+}
+
+.title{
+  font-family:cursive;
+  text-align: left;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.title h1{
+  font-size:50px;
+  border: solid 5px;
+  border-radius: 40%;
+}
+
+.menu{
+  display: inline-block;
+  float: right;
+}
+
+.tablet{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  z-index: 8;
+  display: none;
+}
+
+.tablet-list{
+  background:linear-gradient(to bottom,#FFD5EC,white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+}
+
+.tablet-list.active{
+  transform: translateY(0%);
+}
+
+.menu-icon{
+  color: gray;
+  text-align: right;
+  font-size: 25px;
+  padding: 21px 21px;
+
+}
+
+.contents-list{
+  color: black;
+  cursor: pointer;
+}
+
+.list{
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.list a{
+  text-decoration: none;
+  color: gray;
+}
+
+.list a:hover{
+  color: black;
+  border-bottom: solid 1px;
+}
+
+.list span{
+  font-size: 5px;
+  display: none;
+}
+
+.contents-list-2{
+  color: black;
+  list-style: none;
+  text-align: center;
+}
+
+.contents-list-2 li{
+  border-bottom: solid 1px gray;
+  margin: 15px 30px 15px 0px;
+  font-weight: bold;
+  color: gray;
+}
+
+.contents-list-2 li:first-child{
+  margin-top: 70px;
+}
+
+.contents-list-2 li:last-child{
+  border: none;
+}
+
+.list-2 span{
+  font-size: 5px;
+}
+
+.profile-image{
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-image img{
+  display: inline-block;
+  height: 500px;
+  width: 400px;
+  border-radius: 5%;
+  margin-top: 100px;
+}
+
+.coment{
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.coment p{
+  display: inline-block;
+  text-align:left;
+
+}
+
+.over{
+  color: gray;
+  text-align: right;
+  margin-right: 20px;
+}
