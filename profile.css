@@ -6,6 +6,7 @@ header{
   background:linear-gradient(to bottom,#FFD5EC,white);
   height: 130px;
   width: 100%;
+  position: fixed;
 }
 
 footer{
@@ -131,7 +132,7 @@ footer{
   height: 500px;
   width: 375px;
   border-radius: 5%;
-  margin-top: 100px;
+  margin-top: 300px;
 }
 
 .coment{
