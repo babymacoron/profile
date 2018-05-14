@@ -15,12 +15,14 @@
 
   .profile-image img{
     height: 230px;
-    width: 200px;
+    width: 173px;
     max-width: 100%;
   }
 
   .coment p{
-    font-size: 15px;
+    font-size: 13px;
+    margin:3%;
+    font-weight: bold;
   }
 
 }
