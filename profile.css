@@ -147,6 +147,7 @@ footer{
 .coment p{
   display: inline-block;
   text-align:left;
+  margin-left: 20px;
 }
 
 .over{
