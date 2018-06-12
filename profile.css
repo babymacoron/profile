@@ -138,8 +138,7 @@ footer{
 
 .coment{
   max-width: 800px;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 100px auto 0 auto;
   text-align: center;
   border: dashed 2px #90ee90;
   border-radius: 10px;
@@ -149,6 +148,21 @@ footer{
   display: inline-block;
   text-align:left;
   margin-left: 20px;
+}
+
+.profile-image2{
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-image2 img{
+  display: inline-block;
+  height: 246px;
+  width: 400px;
+  border: solid 2px gray;
+  border-radius: 5%;
+  margin: 50px 0;
 }
 
 .over{
