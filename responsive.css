@@ -19,6 +19,12 @@
     max-width: 100%;
   }
 
+  .profile-image2 img{
+    height: 123px;
+    width: 200px;
+    max-width: 100%;
+  }
+
   .coment p{
     font-size: 13px;
     margin:3%;
